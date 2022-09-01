@@ -1,0 +1,92 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    text-decoration: none;
+  }
+  h2{
+    color: #5aa3e7;
+  }
+
+  header {
+    justify-content: space-between;
+    display: flex;
+    background-color: #6fa8dc;
+    margin: 0px;
+  }
+  nav a {
+    display: inline-block;
+  }
+  header nav a {
+    padding-right: 40px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: helvetica;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+  }
+  
+  header nav a:hover {
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: helvetica;
+    color: #545454;
+    font-weight: bold;
+    transition: 1s ease;
+    
+  }
+  .titulo {
+    box-shadow: 0px 2px 12px 0px gray;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    
+  }
+
+/*Cuerpo*/
+.seccion{
+    margin: 150px;
+    display: flex;
+}
+.subtitulo{
+    font-size: 40px;
+    margin: 50px;
+    transition: 1.5s;
+}
+
+img{
+    width: 50%;
+    border-radius: 5%;
+    box-shadow: 0px 1px 25px 0px gray;
+    margin-left: 300px;
+    transition: 1.5s;
+}
+img:hover{
+    width: 51%;
+    box-shadow: 0px 1px 30px 0px black;
+}
+.subtitulo:hover{
+    font-size: 41px;
+    color: black;
+}
+
+/*Footer*/
+
+.pie {
+    text-align: center;
+    background-color: #a6cff5;
+    color: gray;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px gray;
+    border-color: black;
+  }
+  
